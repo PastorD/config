@@ -2,5 +2,5 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 PARENT="$(dirname "$DIR")"
-cat "$PARENT/add_to_bashrc.txt" >> "$HOME/.bashrc"
+cat "add_bashrc.txt" >> "$HOME/.bashrc"
 cp tmuxConf.conf ~/.tmux.conf
