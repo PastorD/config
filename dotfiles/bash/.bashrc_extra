@@ -1,0 +1,2 @@
+# Don't store commands that aren't useful in history
+export HISTIGNORE='exit:history:l:l[1als]:lla:+(.)'
